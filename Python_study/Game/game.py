@@ -34,10 +34,10 @@ player = pygame.image.load('player.png').convert_alpha() #pygame.Surface(PLAYER_
 player_rect = pygame.Rect(40, 350, *PLAYER_SIZE) #player.get_rect()
 
 
-player_move_down = [0, 4]
-player_move_up = [0, -4]
-player_move_right = [4, 0]
-player_move_left = [-6, 0]
+player_move_down = [0, 5]
+player_move_up = [0, -5]
+player_move_right = [5, 0]
+player_move_left = [-7, 0]
 
 # Додаємо ворогів
 def create_enemy():
